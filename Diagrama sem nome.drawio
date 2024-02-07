@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T16:22:51.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BsJqzrRu968EEAOYUNAF" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T16:32:18.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="rtWNWZ78mpn2EV3eKQg6" version="23.1.1" type="github">
   <diagram name="Página-1" id="O3iFv-DqFvRqpsGsKOC1">
     <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
             <mxPoint x="260" y="325" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YqfYZ3x6uEaxX8tetajO-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YqfYZ3x6uEaxX8tetajO-16" target="YqfYZ3x6uEaxX8tetajO-31">
+        <mxCell id="YqfYZ3x6uEaxX8tetajO-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YqfYZ3x6uEaxX8tetajO-48" target="YqfYZ3x6uEaxX8tetajO-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="475" as="targetPoint" />
             <Array as="points" />
@@ -94,10 +94,10 @@
           <mxGeometry x="40" y="250" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YqfYZ3x6uEaxX8tetajO-31" value="Front sends query to Flask&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Flask send query to DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="607.5" y="447.5" width="155" height="55" as="geometry" />
+          <mxGeometry x="602.5" y="520" width="155" height="55" as="geometry" />
         </mxCell>
         <mxCell id="YqfYZ3x6uEaxX8tetajO-33" value="Seach by Name atribute" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="595" width="160" height="130" as="geometry" />
+          <mxGeometry x="600" y="620" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="YqfYZ3x6uEaxX8tetajO-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YqfYZ3x6uEaxX8tetajO-28" target="YqfYZ3x6uEaxX8tetajO-34">
           <mxGeometry relative="1" as="geometry">
@@ -116,6 +116,9 @@
         </mxCell>
         <mxCell id="YqfYZ3x6uEaxX8tetajO-37" value="Display &quot;Invalid Data&quot; prompt" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="330" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YqfYZ3x6uEaxX8tetajO-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YqfYZ3x6uEaxX8tetajO-39" target="YqfYZ3x6uEaxX8tetajO-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YqfYZ3x6uEaxX8tetajO-39" value="Flask recieves full data, and passes it on as a &quot;Character Object&quot; to React" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="337.5" y="810" width="135" height="100" as="geometry" />
@@ -141,11 +144,18 @@
             <mxPoint x="440" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YqfYZ3x6uEaxX8tetajO-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="880" as="sourcePoint" />
-            <mxPoint x="590" y="830" as="targetPoint" />
+        <mxCell id="YqfYZ3x6uEaxX8tetajO-47" value="React recieves all Character Objects and generates a &quot;card&quot; component for each, populating a div under search box" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="950" width="200" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="YqfYZ3x6uEaxX8tetajO-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YqfYZ3x6uEaxX8tetajO-16" target="YqfYZ3x6uEaxX8tetajO-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="475" as="sourcePoint" />
+            <mxPoint x="683" y="520" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YqfYZ3x6uEaxX8tetajO-48" value="Loading&lt;br&gt;Screen" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="455" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
