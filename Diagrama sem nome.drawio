@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T23:16:20.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="98ku006oOOnxybLx0vGT" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T22:49:40.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YgdI4IbUOVkCt99rx3B0" version="24.2.1" type="github">
   <diagram name="Página-1" id="O3iFv-DqFvRqpsGsKOC1">
-    <mxGraphModel dx="880" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,7 +135,7 @@
         <mxCell id="YqfYZ3x6uEaxX8tetajO-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YqfYZ3x6uEaxX8tetajO-43" target="YqfYZ3x6uEaxX8tetajO-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YqfYZ3x6uEaxX8tetajO-43" value="&quot;Base Info&quot; is a Class of objects whose attributes are:&lt;br&gt;DB ID (int), Name (str), Image (img), Alive (boolean), Page (int) and Race (str)." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+        <mxCell id="YqfYZ3x6uEaxX8tetajO-43" value="&quot;Base Info&quot; is a Class of objects whose attributes are:&lt;br&gt;DB ID (int), Name (str), Image (img), Alive (string), Page (int) and Race (str)." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="45" y="782.5" width="185" height="155" as="geometry" />
         </mxCell>
         <mxCell id="YqfYZ3x6uEaxX8tetajO-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YqfYZ3x6uEaxX8tetajO-3" target="YqfYZ3x6uEaxX8tetajO-7" edge="1">
@@ -147,7 +147,7 @@
         <mxCell id="iNBopYPBDYlACGniuQu2-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YqfYZ3x6uEaxX8tetajO-47" target="iNBopYPBDYlACGniuQu2-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YqfYZ3x6uEaxX8tetajO-47" value="React recieves all &quot;Primary Info&quot; and generates a &quot;card&quot; component for each, populating a div under search box" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YqfYZ3x6uEaxX8tetajO-47" value="React receives all &quot;Base Info&quot; and generates a &quot;card&quot; component for each, populating a div under the search box" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="122.5" y="1000" width="215" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YqfYZ3x6uEaxX8tetajO-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YqfYZ3x6uEaxX8tetajO-16" target="YqfYZ3x6uEaxX8tetajO-48" edge="1">
